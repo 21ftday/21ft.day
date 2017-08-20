@@ -85,10 +85,10 @@ figure .trasera{
 .contenedor_tarjeta:nth-child(1) figure .trasera{
 	background: rgba(231,240,248,0.75);
     background: -moz-linear-gradient(top, rgba(231,240,248,0.75) 0%, rgba(26,34,41,1) 100%);
+    background: -ms-linear-gradient(top, rgba(231,240,248,0.75) 0%, rgba(26,34,41,1) 100%);
+    background: -o-linear-gradient(top, rgba(231,240,248,0.75) 0%, rgba(26,34,41,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(231,240,248,0.75)), color-stop(100%, rgba(26,34,41,1)));
     background: -webkit-linear-gradient(top, rgba(231,240,248,0.75) 0%, rgba(26,34,41,1) 100%);
-    background: -o-linear-gradient(top, rgba(231,240,248,0.75) 0%, rgba(26,34,41,1) 100%);
-    background: -ms-linear-gradient(top, rgba(231,240,248,0.75) 0%, rgba(26,34,41,1) 100%);
     background: linear-gradient(to bottom, rgba(231,240,248,0.75) 0%, rgba(26,34,41,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7f0f8', endColorstr='#1a2229', GradientType=0 );
 }
@@ -96,13 +96,25 @@ figure .trasera{
 .contenedor_tarjeta:nth-child(2) figure .trasera{
 	background: rgba(236,227,212,0.75);
     background: -moz-linear-gradient(top, rgba(236,227,212,0.75) 0%, rgba(71,41,39,1) 100%);
+    background: -ms-linear-gradient(top, rgba(236,227,212,0.75) 0%, rgba(71,41,39,1) 100%);
+    background: -o-linear-gradient(top, rgba(236,227,212,0.75) 0%, rgba(71,41,39,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(236,227,212,0.75)), color-stop(100%, rgba(71,41,39,1)));
     background: -webkit-linear-gradient(top, rgba(236,227,212,0.75) 0%, rgba(71,41,39,1) 100%);
-    background: -o-linear-gradient(top, rgba(236,227,212,0.75) 0%, rgba(71,41,39,1) 100%);
-    background: -ms-linear-gradient(top, rgba(236,227,212,0.75) 0%, rgba(71,41,39,1) 100%);
     background: linear-gradient(to bottom, rgba(236,227,212,0.75) 0%, rgba(71,41,39,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ece3d4', endColorstr='#472927', GradientType=0 );
 }
+
+.contenedor_tarjeta:nth-child(3) figure .trasera{
+	background: rgba(209,219,219,1);
+	background: -moz-linear-gradient(top, rgba(209,219,219,1) 0%, rgba(6,59,93,0.6) 100%);
+	background: -ms-linear-gradient(top, rgba(209,219,219,1) 0%, rgba(6,59,93,0.6) 100%);
+	background: -o-linear-gradient(top, rgba(209,219,219,1) 0%, rgba(6,59,93,0.6) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(209,219,219,1)), color-stop(100%, rgba(6,59,93,0.6)));
+	background: -webkit-linear-gradient(top, rgba(209,219,219,1) 0%, rgba(6,59,93,0.6) 100%);
+	background: linear-gradient(to bottom, rgba(209,219,219,1) 0%, rgba(6,59,93,0.6) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1dbdb', endColorstr='#063b5d', GradientType=0 );
+}
+
 
 figure .trasera .titulo {
 	color: #fff;

@@ -203,6 +203,29 @@ figure .trasera{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b5e68', endColorstr='#134150', GradientType=0 );
 }
 
+.contenedor_tarjeta:nth-child(12) figure .trasera{
+	background: rgba(205,202,196,1);
+	background: -moz-linear-gradient(top, rgba(205,202,196,1) 0%, rgba(33,33,34,0.6) 100%);
+	background: -ms-linear-gradient(top, rgba(205,202,196,1) 0%, rgba(33,33,34,0.6) 100%);
+	background: -o-linear-gradient(top, rgba(205,202,196,1) 0%, rgba(33,33,34,0.6) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(205,202,196,1)), color-stop(100%, rgba(33,33,34,0.6)));
+	background: -webkit-linear-gradient(top, rgba(205,202,196,1) 0%, rgba(33,33,34,0.6) 100%);
+	background: linear-gradient(to bottom, rgba(205,202,196,1) 0%, rgba(33,33,34,0.6) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdcac4', endColorstr='#212122', GradientType=0 );
+}
+
+.contenedor_tarjeta:nth-child() figure .trasera{
+	
+}
+
+.contenedor_tarjeta:nth-child() figure .trasera{
+	
+}
+
+.contenedor_tarjeta:nth-child() figure .trasera{
+	
+}
+
 .contenedor_tarjeta:nth-child() figure .trasera{
 	
 }
@@ -221,6 +244,21 @@ figure .trasera{
 
 .contenedor_tarjeta:nth-child() figure .trasera{
 	
+}
+
+.contenedor_tarjeta:nth-child() figure .trasera{
+	
+}
+
+.contenedor_tarjeta:nth-child(22) figure .trasera{
+	background: rgba(132,132,132,1);
+	background: -moz-linear-gradient(top, rgba(132,132,132,1) 0%, rgba(44,44,44,0.6) 100%);
+	background: -ms-linear-gradient(top, rgba(132,132,132,1) 0%, rgba(44,44,44,0.6) 100%);
+	background: -o-linear-gradient(top, rgba(132,132,132,1) 0%, rgba(44,44,44,0.6) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(132,132,132,1)), color-stop(100%, rgba(44,44,44,0.6)));
+	background: -webkit-linear-gradient(top, rgba(132,132,132,1) 0%, rgba(44,44,44,0.6) 100%);
+	background: linear-gradient(to bottom, rgba(132,132,132,1) 0%, rgba(44,44,44,0.6) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#848484', endColorstr='#2c2c2c', GradientType=0 );
 }
 
 figure .trasera .titulo {
